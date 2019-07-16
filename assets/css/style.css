@@ -1,0 +1,23 @@
+body{
+    background-color: blue;
+    font-size: large;
+    font-family: 'Bahianita', cursive;
+}
+
+#hangman_img
+{
+    height:200px;
+    width:200px;
+    float:left;
+}
+#title_img
+{
+    height:150px;
+    width:150px;
+    float:left;
+}
+#game_img
+{
+    height:400px;
+    width:300px;
+}
