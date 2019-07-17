@@ -1,23 +1,39 @@
 body{
-    background-color: blue;
-    font-size: large;
+    background-image: url("../images/background.jpg");
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
     font-family: 'Bahianita', cursive;
+    color: blue;
+    font-weight: bolder;
 }
-
+.needBorder
+{
+    border-style: dashed;
+}
 #hangman_img
 {
-    height:200px;
-    width:200px;
-    float:left;
+    height: 200px;
+    width: 200px;
 }
 #title_img
 {
-    height:150px;
-    width:150px;
-    float:left;
+    height:100px;
+    width:100px;
 }
 #game_img
 {
-    height:400px;
-    width:300px;
+    height:100%;
+    width:100%;
+}
+.gamePlace
+{
+    text-align: center;
+    background-color: lavender;
+    background-blend-mode: overlay;
+}
+.phrase{
+    size: 10em;
+    text-align: left;
+    color: gold;
+    font-family: 'Notable', sans-serif;
 }

@@ -6,15 +6,15 @@
 	<title>Hangman Game</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" tyep="text/css" href="assets/css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Bahianita&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 <header>
 	<div class="container">
 		<div class="row">
-			<div class="col"></div>
 			<div class="col-lg">
 				<img id="hangman_img" src="assets/images/the-Hangman-logo.png">
 				<img id="title_img" src="assets/images/title.png">
@@ -26,28 +26,29 @@
 
 <section>
 	<div class="container">
-		<div class="row">
-			<div class="col"></div>
-			<div class="col-md">
+		<div class="row justify-content-center">
+			<div class="col-4 needBorder">
 				<img id="game_img" src="assets/images/welcom.jpg">
 			</div>
-			<div class="col-md">
-				<h1 class="display-4">Press any key to get started!!</h1>
-				<h1 id="win_num" class="display-4">Wins</h1>
-				<h1 class="display-4">Current Words</h1>
-				<h1 id="unsolved_words" class="display-4"></h1>
-				<h1 id="chances" class="display-4">Number of guesses remaining</h1>
-				<div id="remain_num>" class="display-4"></div>
-				<h1 class="display-4">Letters Guessed</h1>
-				<h1 id="guessed_letters" class="display-4"></h1>
+			<div class="col-4 needBorder gamePlace">
+				<h1 class="phrase"></h1>
+				<h1 class="diplay">Press any key to get started!!</h1>
+				<h1 id="win_num" class="display">Wins</h1>
+				<h1 class="display">Current Words</h1>
+				<h1 id="unsolved_words" class="display"></h1>
+				<h1 id="chances" class="display">Number of guesses remaining</h1>
+				<div id="remain_num>" class="display"></div>
+				<h1 class="display">Letters Guessed</h1>
+				<h1 id="guessed_letters" class="display"></h1>
 			</div>
-			<div class="col"></div>
 		</div>
 	</div>
 </section>
 
 <footer>
-	<embed id = "background_music" src="assets/music/welcome.mp3" loop="false" autostart="true" width="2" height="0"></embed>
+	<audio id = "background_music" autoplay>
+		<source src="assets/music/welcome.mp3">
+	</audio>
 </footer>
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="assets/javascript/game.js"></script>

@@ -78,23 +78,28 @@ function winner()
 {
     if (currentWord === phrases[0]) {
         $("#game_img").attr("src", "assets/images/d1.jpg");
+        $(".phrase").text(currentWord);
+        //$("#background_music").
         $("#background_music").attr("src", "assets/music/d1.mp3");
-        console.log($("#background_music").textContent);
     }
     else if(currentWord === phrases[1]){
         $("#game_img").attr("src","assets/images/d9.jpg");
+        $(".phrase").text(currentWord);
         $("#background_music").attr("src", "assets/music/d9.mp3");
     }
     else if(currentWord === phrases[2]) {
         $("#game_img").attr("src", "assets/images/d10.jpg");
+        $(".phrase").text(currentWord);
         $("#background_music").attr("src", "assets/music/d10.mp3");
     }
     else if(currentWord === phrases[3]) {
         $("#game_img").attr("src", "assets/images/d11.jpg");
+        $(".phrase").text(currentWord);
         $("#background_music").attr("src", "assets/music/d11.mp3");
     }
     else {
         $("#game_img").attr("src", "assets/images/d12.jpg");
+        $(".phrase").text(currentWord);
         $("#background_music").attr("src", "assets/music/d12.mp3");
     }
 
