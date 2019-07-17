@@ -3,7 +3,7 @@ body{
     background-size: 100% 140%;
     background-repeat: no-repeat;
     font-family: 'Bahianita', cursive;
-    color: blue;
+    color: white;
     font-weight: bolder;
 }
 .needBorder
@@ -28,7 +28,7 @@ body{
 .gamePlace
 {
     text-align: center;
-    background-color: lavender;
+    background: rgba(119,136,153,0.8);
     background-blend-mode: overlay;
 }
 .phrase{
